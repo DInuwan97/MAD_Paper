@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAddArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Artist" />
+
+    <Button
+        android:id="@+id/btnAddPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ad Photo" />
+
+    <Button
+        android:id="@+id/btnDeleteArPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Photo/Artist" />
+
+    <Button
+        android:id="@+id/btnViewPhotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Photos" />
+
+
+</LinearLayout>
